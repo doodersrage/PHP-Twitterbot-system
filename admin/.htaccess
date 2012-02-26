@@ -1,0 +1,2 @@
+AuthName "Restricted Area"
+AuthUserFile "/home/doode0/.htpasswds/public_html/twitterbot/admin/passwd"

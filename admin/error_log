@@ -1,0 +1,73 @@
+[13-Dec-2009 19:22:54] PHP Parse error:  syntax error, unexpected ')' in /home/doode0/public_html/twitterbot/admin/index.php on line 32
+[13-Dec-2009 20:03:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/doode0/public_html/twitterbot/admin/index.php:16) in /home/doode0/public_html/twitterbot/admin/index.php on line 66
+[13-Dec-2009 21:16:45] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'doode0'@'localhost' (using password: NO) in /home/doode0/public_html/twitterbot/admin/index.php on line 72
+[13-Dec-2009 21:16:45] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/doode0/public_html/twitterbot/admin/index.php on line 72
+[31-Jul-2010 13:09:43] PHP Parse error:  syntax error, unexpected ';' in /home/doode0/public_html/twitterbot/admin/functions/sections.php on line 539
+[31-Jul-2010 13:21:00] PHP Fatal error:  Call to undefined method stdClass::get() in /home/doode0/public_html/twitterbot/admin/functions/sections.php on line 563
+[31-Jul-2010 20:54:40] PHP Fatal error:  Can't use function return value in write context in /home/doode0/public_html/twitterbot/admin/functions/page_procs.php on line 95
+[01-Aug-2010 13:13:12] PHP Parse error:  syntax error, unexpected ':' in /home/doode0/public_html/twitterbot/admin/functions/sections.php on line 535
+[01-Aug-2010 13:31:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/doode0/public_html/twitterbot/admin/functions/page_procs.php on line 7
+[01-Aug-2010 17:36:23] PHP Parse error:  syntax error, unexpected T_CASE in /home/doode0/public_html/twitterbot/admin/functions/page_procs.php on line 94
+[01-Aug-2010 17:39:07] PHP Parse error:  syntax error, unexpected T_CASE in /home/doode0/public_html/twitterbot/admin/functions/page_procs.php on line 125
+[01-Aug-2010 18:01:19] PHP Fatal error:  Call to undefined method stdClass::get() in /home/doode0/public_html/twitterbot/admin/functions/sections.php on line 736
+[04-Nov-2010 08:32:14] PHP Warning:  require(/home8/studipg1/public_html/twitterbot/admin/forms/..) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home8/studipg1/public_html/twitterbot/admin/functions/sections.php on line 24
+[04-Nov-2010 08:32:14] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home8/studipg1/public_html/twitterbot/admin/forms/..' (include_path='/home8/studipg1/public_html/twitterbot/PEAR/PEAR/.:/usr/lib64/php:/usr/lib/php') in /home8/studipg1/public_html/twitterbot/admin/functions/sections.php on line 24
+[04-Nov-2010 08:34:17] PHP Fatal error:  Call to undefined function  user_options_frm() in /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php on line 162
+[04-Nov-2010 08:34:28] PHP Fatal error:  Call to undefined function  user_listing() in /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php on line 211
+[04-Nov-2010 09:21:05] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home8/studipg1/public_html/twitterbot/admin/forms/tweet_listing.php on line 7
+[04-Nov-2010 09:29:02] PHP Parse error:  syntax error, unexpected T_IF in /home8/studipg1/public_html/twitterbot/admin/forms/tweet_listing.php on line 63
+[04-Nov-2010 10:31:59] PHP Parse error:  syntax error, unexpected '{' in /home8/studipg1/public_html/twitterbot/admin/forms/sent_tweets_listing.php on line 53
+[04-Nov-2010 10:32:40] PHP Fatal error:  Call to undefined method MDB2_Error::fetchRow() in /home8/studipg1/public_html/twitterbot/admin/forms/sent_tweets_listing.php on line 65
+[04-Nov-2010 12:21:49] PHP Fatal error:  Call to undefined method stdClass::get() in /home8/studipg1/public_html/twitterbot/admin/functions/common.php on line 198
+[04-Nov-2010 13:07:29] PHP Fatal error:  Class 'FPDF' not found in /home8/studipg1/public_html/twitterbot/admin/functions/common.php on line 211
+[04-Nov-2010 13:50:16] PHP Fatal error:  Call to undefined method stdClass::get() in /home8/studipg1/public_html/twitterbot/admin/functions/common.php on line 163
+[05-Nov-2010 12:22:39] PHP Warning:  Missing argument 3 for TwitterBot::__construct(), called in /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php on line 180 and defined in /home8/studipg1/public_html/twitterbot/classes/TwitterBot.class.php on line 35
+[05-Nov-2010 12:22:40] PHP Warning:  Missing argument 4 for TwitterBot::__construct(), called in /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php on line 180 and defined in /home8/studipg1/public_html/twitterbot/classes/TwitterBot.class.php on line 35
+[05-Nov-2010 12:22:40] PHP Warning:  Missing argument 5 for TwitterBot::__construct(), called in /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php on line 180 and defined in /home8/studipg1/public_html/twitterbot/classes/TwitterBot.class.php on line 35
+[05-Nov-2010 12:22:41] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Communication with the twitter API failed: Invalid / expired Token' in /home8/studipg1/public_html/twitterbot/classes/TwitterBot.class.php:134
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(181): TwitterBot->tweetmessage('test')
+#1 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#2 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/classes/TwitterBot.class.php on line 134
+[08-Nov-2010 08:47:31] PHP Fatal error:  Call to undefined method stdClass::get() in /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php on line 7
+[08-Nov-2010 09:29:02] PHP Fatal error:  Uncaught exception 'TwitterException' with message 'Incorrect signature' in /home8/studipg1/public_html/twitterbot/vendor/twitter.php:556
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/vendor/twitter.php(1061): Twitter->doCall('statuses/retwee...', Array)
+#1 /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php(15): Twitter->statusesRetweetedToMe('', '', 20)
+#2 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(204): get_retweets()
+#3 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#4 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/vendor/twitter.php on line 556
+[08-Nov-2010 09:29:44] PHP Fatal error:  Uncaught exception 'TwitterException' with message 'Incorrect signature' in /home8/studipg1/public_html/twitterbot/vendor/twitter.php:556
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/vendor/twitter.php(1061): Twitter->doCall('statuses/retwee...', Array)
+#1 /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php(15): Twitter->statusesRetweetedToMe('', '', 20)
+#2 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(204): get_retweets()
+#3 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#4 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/vendor/twitter.php on line 556
+[08-Nov-2010 10:50:03] PHP Fatal error:  Uncaught exception 'TwitterException' with message 'Incorrect signature' in /home8/studipg1/public_html/twitterbot/vendor/twitter.php:556
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/vendor/twitter.php(1061): Twitter->doCall('statuses/retwee...', Array)
+#1 /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php(15): Twitter->statusesRetweetedToMe('', '', 20)
+#2 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(204): get_retweets()
+#3 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#4 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/vendor/twitter.php on line 556
+[08-Nov-2010 10:53:33] PHP Fatal error:  Uncaught exception 'TwitterException' with message 'Incorrect signature' in /home8/studipg1/public_html/twitterbot/vendor/twitter.php:556
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/vendor/twitter.php(1061): Twitter->doCall('statuses/retwee...', Array)
+#1 /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php(15): Twitter->statusesRetweetedToMe(NULL, NULL, 20)
+#2 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(204): get_retweets()
+#3 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#4 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/vendor/twitter.php on line 556
+[08-Nov-2010 10:57:58] PHP Fatal error:  Uncaught exception 'TwitterException' with message 'Incorrect signature' in /home8/studipg1/public_html/twitterbot/vendor/twitter.php:556
+Stack trace:
+#0 /home8/studipg1/public_html/twitterbot/vendor/twitter.php(1061): Twitter->doCall('statuses/retwee...', Array)
+#1 /home8/studipg1/public_html/twitterbot/admin/forms/retweets.php(15): Twitter->statusesRetweetedToMe(NULL, NULL, 20)
+#2 /home8/studipg1/public_html/twitterbot/admin/functions/page_procs.php(204): get_retweets()
+#3 /home8/studipg1/public_html/twitterbot/admin/index.php(26): require('/home8/studipg1...')
+#4 {main}
+  thrown in /home8/studipg1/public_html/twitterbot/vendor/twitter.php on line 556
