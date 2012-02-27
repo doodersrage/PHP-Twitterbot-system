@@ -25,3 +25,4 @@ Reports can be downloaded in PDF or CSV format.
 Used libraries:
 PEAR + MDB2
 FPDF
+jQuery + jQuery UI
