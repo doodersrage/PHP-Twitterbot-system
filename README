@@ -11,6 +11,8 @@ Default login:
 U: admin@localhost.com
 P: pass
 
+To activate the bot send a request to the -twitter_cron.php- file.
+
 You're in!
 
 With this system you can:
