@@ -31,3 +31,4 @@ jQuery + jQuery UI
 Twitter Class by: Tijs Verkoyen - http://classes.verkoyen.eu/twitter/
 
 Originally developed back in 2009 then tweaked and modified until around early 2011.
+
